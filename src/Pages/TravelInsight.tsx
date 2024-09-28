@@ -1,8 +1,14 @@
-import React from 'react'
+import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/ComponentHeader"
+import GridLayout from "../components/Insight/GridLayout"
 
 function TravelInsight() {
   return (
-    <div>TravelInsight</div>
+    <div className="flex flex-col gap-10">
+      <Header />
+      <GridLayout />
+      <Footer />
+    </div>
   )
 }
 

@@ -1,8 +1,13 @@
-import React from 'react'
-
+import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/ComponentHeader"
+import ServiceGrid from "../components/Services/ServiceGrid"
 function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <Header />
+      <ServiceGrid/>
+      <Footer/>
+    </div>
   )
 }
 
