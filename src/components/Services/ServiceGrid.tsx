@@ -27,7 +27,7 @@ const services: ServiceItem[] = [
 
 const ServiceGrid: React.FC = () => {
   return (
-    <div className="w-full py-12 px-6 bg-black">
+    <div className="w-full py-12 px-6 bg-[#01190d]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <div key={index} className="text-center">

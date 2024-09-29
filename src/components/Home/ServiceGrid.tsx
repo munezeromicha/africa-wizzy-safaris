@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: "Hotel Reservation",
-    imageSrc: img1,
+    imageSrc: img2,
     buttonLabel: "Learn More",
   },
   {
@@ -27,7 +27,7 @@ const services = [
 
 const ServiceGrid: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 gap-6 px-4 py-8">
+    <div className=" bg-[#01190d] grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 gap-6 px-4 py-8">
       {services.map((service, index) => (
         <ServiceCard
           key={index}

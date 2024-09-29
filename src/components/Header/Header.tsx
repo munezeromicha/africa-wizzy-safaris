@@ -4,13 +4,6 @@ import video from "../../assets/Images/VID-20240928-WA0024.mp4";
 function Header() {
   return (
     <div>
-      <header className="flex justify-between items-center px-4 py-2 bg-yellow-600">
-        <div className="space-x-4 text-xs">
-          <span>📞 +250 790 962 901</span>
-          <span>📞 +250 790 962 901</span>
-          <span>📧 booking@example.com</span>
-        </div>
-      </header>
       <Layout />
       <section className="relative h-[90vh] bg-cover bg-center">
         <video

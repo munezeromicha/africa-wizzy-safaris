@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
 import TravelInsight from "./Pages/TravelInsight";
+import Bookings from "./Pages/Booking";
 import Layout from "./Pages/Layout";
 import './index.css'
 import NoPageFound from "./Pages/NoPage";
@@ -18,6 +19,7 @@ const SafariLanding: React.FC = () => {
     <Route path="services" element={<Services />} />
     <Route path="contact" element={<Contact />} />
     <Route path="travelInsight" element={<TravelInsight />} />
+    <Route path="bookings" element={<Bookings />} />
     <Route path="*" element={<NoPageFound />} />
     </Routes>
     </BrowserRouter>

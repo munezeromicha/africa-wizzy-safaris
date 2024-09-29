@@ -8,7 +8,7 @@ function Layout() {
 
   return (
     <>
-      <nav className="flex justify-between items-center py-4 px-2 bg-[rgba(89,47,6,0.8)] text-white">
+      <nav className="flex justify-between items-center py-4 px-6 bg-[#21140b] text-white">
         <div className="text-yellow-300 font-bold">
           <img src={Logo} alt="logo" className="w-[50px]" />
         </div>
@@ -94,16 +94,16 @@ function Layout() {
             </ul>
           )}
         </div>
-        <ul className="hidden md:flex md:flex-row md:space-x-6 z-10">
+        <ul className="items-center hidden md:flex md:flex-row md:space-x-6 z-10">
           <li className="hover:text-yellow-500">
             <Link to="/">Home</Link>
           </li>
           <li className="hover:text-yellow-500">
             <Link to="/about">About Us</Link>
           </li>
-          <li className="hover:text-yellow-500 relative group">
+          <li className="hover:text-yellow-500 relative group cursor-pointer">
             Services
-            <ul className="fixed left-0 w-full mt-4 hidden group-hover:block">
+            <ul className="fixed left-0 w-full mt-0 hidden group-hover:block">
               <Link to="/services">
                 <ServiceGrid />
               </Link>
@@ -114,6 +114,10 @@ function Layout() {
           </li>
           <li className="hover:text-yellow-500">
             <Link to="/contact">Contact Us</Link>
+          </li>
+          <li className="hover:text-[#21140b]">
+            <button className="bg-orange-700 rounded p-2 transition-transform duration-200 hover:scale-105 animate-bounce">
+            <Link to="/bookings">Book now</Link></button>
           </li>
         </ul>
       </nav>
